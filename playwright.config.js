@@ -1,0 +1,1 @@
+import { defineConfig } from '@playwright/test';export default defineConfig({testDir:'.',testMatch:'*.spec.js',use:{baseURL:'http://127.0.0.1:4175',headless:true,launchOptions:{...(process.env.CHROME_PATH?{executablePath:process.env.CHROME_PATH}:{}),args:['--no-sandbox']}},webServer:{command:'npm run dev -- --port 4175',port:4175,reuseExistingServer:true}});
