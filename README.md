@@ -43,9 +43,7 @@ npm run test:e2e
 
 To use an installed Chrome for browser tests, set CHROME_PATH to its executable path. The app is a static React/Vite frontend. The relative Vite base supports hosting under a project subdirectory. No server, secrets or environment variables are needed.
 
-## Learning and authorship
 
-Prepared with AI assistance as a portfolio learning project. This is not client work, employment history or evidence of independent authorship. Review the Arabic walkthrough, run the code and implement the practice tasks before presenting it in an interview. Keep real commit dates. Source is marked UNLICENSED pending the owner's license choice.
 
 ## Repository layout
 
